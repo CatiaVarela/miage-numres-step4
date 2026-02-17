@@ -74,10 +74,10 @@ Nous utiliserons Vite durant ce TP pour facilité l'expérience de Devellopement
 
 1. Ouvrir deux terminaux.
 2. Terminal 1 :
-   1. Retourner à la racine du projet :  `cd /workspace/miage-numres-step3/`
+   1. Retourner à la racine du projet :  `cd /workspace/miage-numres-step4/`
    2. Lancer l'api : `./mvnw quarkus:dev -pl api`
 3. Terminal 2 :
-   1. Retourner à la racine du projet :  `cd /workspace/miage-numres-step3/`
+   1. Retourner à la racine du projet :  `cd /workspace/miage-numres-step4/`
    2. Aller dans le la partie front : `cd front`
    3. Installer les dépendances : `npm install`
    4. Lancer l'application Front en mode dev : `npm run dev`
@@ -101,7 +101,7 @@ Lightouse est un outils présent dans le navigateur Chrome qui se repose sur Axe
 5. Répondre à la question Q3 du fichier **_Questions.md_**
 4. Passer le Quizz sans utiliser la souris.
 5. Répondre à la question Q4 du fichier **_Questions.md_**
-8. Commiter  & Pusher le fichier **_Questions.md_**
+8. Commiter & Pusher le fichier **_Questions.md_**
 
 ### Arbre d'arboresence d'Accessibilité
 Les navigateurs convertissent le balisage en une représentation interne appelée arbre DOM. Le DOM contient un objet pour chaque balise, attribut et noeud de texte. Les navigateurs créent ensuite un arbre d'accessibilité basé sur l'arbre DOM, celui-ci est utilisé par les technologies d'assistance telles que les lecteurs d'écran via des APIs spécifiques à une plateforme.
@@ -155,7 +155,7 @@ Sous Chrome :
 5. Répondre à la question Q10, Q11, Q12 et Q13 du fichier **_Questions.md_**
 4. Faites en sorte que la valeur de Rapport de contraste soit > AAA
 5. Répondre à la question Q14 du fichier **_Questions.md_**
-4. Vous êtes actuellement sur l'onglet "Elements" de la consol dévelloper, aller sur l'onglet "Rendu"
+4. Vous êtes actuellement sur l'onglet "Elements" de la console dévelloper, aller sur l'onglet "Rendu"
 4. Descendez en bas "Emuler les déficiences visuelles"
 4. Choississez vision floue, et toutes les autres déficiences.
 5. Répondre à la question Q15 du fichier **_Questions.md_**
