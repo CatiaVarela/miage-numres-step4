@@ -36,31 +36,29 @@ Réponse: L'ARIA peut entrer en conflit avec l'HTML, car il utilise déjà des �
 
 # Q8: Ajouter le screen de votre score Lighthouse
 Screen:
-- En ajoutant aria-label : 
-![alt text](image-3.png)
-- En ajoutant seulement balise sémantique :
+- En ajoutant balise sémantique :
 ![alt text](image-4.png)
 
 # Q9: Pourquoi le score de lighthouse n'a pas augmenté d'après vous ?
 Réponse: Le score lighthouse n'a pas l'air de prendre en compte les balises sémantiques car ces éléments concernent des zones qu'un outil de test automatique ne peut pas couvrir donc c'est des vérifications à faire manuellement. 
 
 # Q10: Quel est la valeur du rapport de contraste actuel :
-Réponse:
+Réponse: 2.38 est la valeur du contraste actuel.
 
 # Q11: Quel est la valeur du score AA :
-Réponse:
+Réponse: AA : 3.0 
 
 # Q12: Quel est la valeur du score AAA :
-Réponse:
+Réponse: AAA : 4.5
 
 # Q13: Comment pouvez vous changer la valeur du contraste de votre texte ?
-Réponse:
+Réponse: Dans le rapport, il y a tout simplement un bouton qui permet de corriger le contraste si l'on souhaite au niveau AA ou AAA directement.
 
 # Q14: Ajouter le screen de votre score Lighthouse
-Screen:
+Screen: ![alt text](image-6.png)
 
 # Q15: Êtes vous capable de déterminer visuellement ce qui est un lien ou pas en appliquant chaque altérations ?
-Réponse:
+Réponse: Les liens sont difficilement différentiable d'une image.
 
 # Q16: Ajouter le screen de votre score Lighthouse
 Screen:
