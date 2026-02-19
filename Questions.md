@@ -1,14 +1,14 @@
-# Q1: Quels sont les arguments que vous pouvez utiliser pour convaincre votre Client de rendre son quizz accessible ? (Vous pouvez vous aider du cour)
-Réponse:
+# Q1: Quels sont les arguments que vous pouvez utiliser pour convaincre votre Client de rendre son quizz accessible ? (Vous pouvez vous aider du cours)
+Réponse: Pour rendre le site plus accessible, il faudrait modifier le contraste, les couleurs pour que ce soit plus lisible. Mettre une légende / alternative (alt) pour l'image ou les logos. Ne pas mettre de logo sans lien ou tout simplement lien inutile.
 
 # Q2: Ajouter le screen de votre score :
-Screen:
+Screen:![alt text](image.png)
 
 # Q3: Est-ce que l'analyse de Lighthouse est suffisante pour évaluer l'Accessibilité de votre Application ?
-Réponse:
+Réponse: Non, Lighthouse ne détecte pas tous les problèmes il faut également faire des vérifications manuellement.
 
 # Q4: Combien de fois vous devez utiliser une touche du clavier pour passer le quizz ?
-Réponse:
+Réponse: Environ une trentaine de fois le temps de parcourir tous les logos de ses réseaux sociaux.
 
 # Q5: Donner 3 roles ARIA et 3 propriété ARIA
 Réponse:
