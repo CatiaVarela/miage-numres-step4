@@ -32,13 +32,17 @@ Screen:![alt text](image-2.png)
 En ajoutant un alt à l'image et un rôle de navigation pour les réseaux sociaux.
 
 # Q7: L'une des best practice de l'ARIA est "ne pas utiliser l'ARIA" pouvez nous expliquer pourquoi d'après vous ?
-Réponse:
+Réponse: L'ARIA peut entrer en conflit avec l'HTML, car il utilise déjà des éléments sémantiques par défaut donc pas besoin d'ajouter l'ARIA systématiquement.
 
 # Q8: Ajouter le screen de votre score Lighthouse
 Screen:
+- En ajoutant aria-label : 
+![alt text](image-3.png)
+- En ajoutant seulement balise sémantique :
+![alt text](image-4.png)
 
 # Q9: Pourquoi le score de lighthouse n'a pas augmenté d'après vous ?
-Réponse:
+Réponse: Le score lighthouse n'a pas l'air de prendre en compte les balises sémantiques car ces éléments concernent des zones qu'un outil de test automatique ne peut pas couvrir donc c'est des vérifications à faire manuellement. 
 
 # Q10: Quel est la valeur du rapport de contraste actuel :
 Réponse:
