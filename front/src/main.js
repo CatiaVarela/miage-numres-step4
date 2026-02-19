@@ -8,8 +8,8 @@ document.querySelector('#app').innerHTML = `
         </div>
 
 
-        <div class="topnav">
-          <a href="#" class="fa fa-facebook"></a>
+        <div class="topnav" role="navigation" title="reseaux sociaux">
+          <a href="#" role="link" class="fa fa-facebook"></a>
           <a href="#" class="fa fa-twitter"></a>
           <a href="#" class="fa fa-google"></a>
           <a href="#" class="fa fa-linkedin"></a>
@@ -45,7 +45,7 @@ document.querySelector('#app').innerHTML = `
           </div>
           <div class="rightcolumn">
             <div class="card">
-              <img src="/question.png" width="500" height="600">
+              <img alt="image d"un point d'interrogation" src="/question.png" width="500" height="600">
             </div>
         </div>
 

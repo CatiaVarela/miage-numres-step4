@@ -1,8 +1,12 @@
 # Q1: Quels sont les arguments que vous pouvez utiliser pour convaincre votre Client de rendre son quizz accessible ? (Vous pouvez vous aider du cours)
-Réponse: Pour rendre le site plus accessible, il faudrait modifier le contraste, les couleurs pour que ce soit plus lisible. Mettre une légende / alternative (alt) pour l'image ou les logos. Ne pas mettre de logo sans lien ou tout simplement lien inutile.
+Réponse: 
+Rendre le quiz accessible permet à tout le monde de l’utiliser, y compris les personnes en situation de handicap (visuel, moteur).
+Et ça améliore aussi le confort de tous : meilleure lisibilité, navigation clavier, textes alternatifs pour les images.
+C’est donc bénéfique pour le client car il aura plus d’utilisateurs qui accèdera au quizz.
 
 # Q2: Ajouter le screen de votre score :
 Screen:![alt text](image.png)
+![alt text](image-1.png)
 
 # Q3: Est-ce que l'analyse de Lighthouse est suffisante pour évaluer l'Accessibilité de votre Application ?
 Réponse: Non, Lighthouse ne détecte pas tous les problèmes il faut également faire des vérifications manuellement.
@@ -13,8 +17,19 @@ Réponse: Environ une trentaine de fois le temps de parcourir tous les logos de 
 # Q5: Donner 3 roles ARIA et 3 propriété ARIA
 Réponse:
 
+- Propriétés ARIA :
+    - aria-labelledby
+    - aria-label
+    - title
+- Roles ARIA :
+    - Navigation
+    - Link
+    - Button
+
+
 # Q6: Ajouter le screen de votre score Lighthouse
-Screen:
+Screen:![alt text](image-2.png)
+En ajoutant un alt à l'image et un rôle de navigation pour les réseaux sociaux.
 
 # Q7: L'une des best practice de l'ARIA est "ne pas utiliser l'ARIA" pouvez nous expliquer pourquoi d'après vous ?
 Réponse:
