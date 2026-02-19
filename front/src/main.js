@@ -4,31 +4,31 @@ import './style.css';
 document.querySelector('#app').innerHTML = `
         <header class="header">
           <h1>My Quizz</h1>
-          <p>Pour accéder a la page /about <a href="about/" style="text-decoration: none;">click ici</a></p>
+          <p>Pour accéder a la page <a href="about/" aria-label="About" style="text-decoration: underline;color:#dfdfdf">/about</a></p>
         </header>
 
 
-        <nav "Réseaux sociaux">
-          <a href="#" class="fa fa-facebook" "Facebook"></a>
-          <a href="#" class="fa fa-twitter" "Twitter"></a>
-          <a href="#" class="fa fa-google" "Google"></a>
-          <a href="#" class="fa fa-linkedin" "LinkedIn"></a>
-          <a href="#" class="fa fa-youtube" "YouTube"></a>
-          <a href="#" class="fa fa-instagram" "Instagram"></a>
-          <a href="#" class="fa fa-pinterest" "Pinterest"></a>
-          <a href="#" class="fa fa-snapchat-ghost" "Snapchat"></a>
-          <a href="#" class="fa fa-skype" "Skype"></a>
-          <a href="#" class="fa fa-android" "Android"></a>
-          <a href="#" class="fa fa-dribbble" "Dribbble"></a>
-          <a href="#" class="fa fa-vimeo" "Vimeo"></a>
-          <a href="#" class="fa fa-tumblr" "Tumblr"></a>
-          <a href="#" class="fa fa-vine" "Vine"></a>
-          <a href="#" class="fa fa-foursquare" "Foursquare"></a>
-          <a href="#" class="fa fa-stumbleupon" "StumbleUpon"></a>
-          <a href="#" class="fa fa-flickr" "Flickr"></a>
-          <a href="#" class="fa fa-yahoo" "Yahoo"></a>
-          <a href="#" class="fa fa-reddit" "Reddit"></a>
-          <a href="#" class="fa fa-rss" "RSS"></a>
+        <nav aria-label="Réseaux sociaux">
+          <a href="#" class="fa fa-facebook" aria-label="Facebook"></a>
+          <a href="#" class="fa fa-twitter" aria-label="Twitter"></a>
+          <a href="#" class="fa fa-google" aria-label="Google"></a>
+          <a href="#" class="fa fa-linkedin" aria-label="LinkedIn"></a>
+          <a href="#" class="fa fa-youtube" aria-label="YouTube"></a>
+          <a href="#" class="fa fa-instagram" aria-label="Instagram"></a>
+          <a href="#" class="fa fa-pinterest" aria-label="Pinterest"></a>
+          <a href="#" class="fa fa-snapchat-ghost" aria-label="Snapchat"></a>
+          <a href="#" class="fa fa-skype" aria-label="Skype"></a>
+          <a href="#" class="fa fa-android" aria-label="Android"></a>
+          <a href="#" class="fa fa-dribbble" aria-label="Dribbble"></a>
+          <a href="#" class="fa fa-vimeo" aria-label="Vimeo"></a>
+          <a href="#" class="fa fa-tumblr" aria-label="Tumblr"></a>
+          <a href="#" class="fa fa-vine" aria-label="Vine"></a>
+          <a href="#" class="fa fa-foursquare" aria-label="Foursquare"></a>
+          <a href="#" class="fa fa-stumbleupon" aria-label="StumbleUpon"></a>
+          <a href="#" class="fa fa-flickr" aria-label="Flickr"></a>
+          <a href="#" class="fa fa-yahoo" aria-label="Yahoo"></a>
+          <a href="#" class="fa fa-reddit" aria-label="Reddit"></a>
+          <a href="#" class="fa fa-rss" aria-label="RSS"></a>
         </nav>
 
         <main>

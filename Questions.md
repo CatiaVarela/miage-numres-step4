@@ -61,7 +61,7 @@ Screen: ![alt text](image-6.png)
 Réponse: Les liens sont difficilement différentiable d'une image.
 
 # Q16: Ajouter le screen de votre score Lighthouse
-Screen:
+Screen:![alt text](image-7.png)
 
 # Q17:  Proposition 1
 Description:
